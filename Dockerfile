@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-MAKEDIR /app
+WORKDIR /app
 
 COPY index.html /app
 
